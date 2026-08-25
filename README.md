@@ -1,91 +1,83 @@
 # Software Engineering Lab
 
-This repository is my personal software engineering lab where I practice programming fundamentals, build mini projects, and improve my problem-solving skills through hands-on exercises.
+This repository is my personal software engineering lab focused on Python backend development practice.
 
-The main goal of this repository is to document my growth as a Software Engineering student while building a strong foundation in Python, Linux, Git, problem-solving, backend development, and future machine learning concepts.
+The goal of this repository is to document my growth as a Software Engineering student while building strong Python fundamentals and learning how backend systems process, validate, organize, and return data.
 
 ## About This Repository
 
-This repository contains practical exercises, small programs, and mini projects organized by topic and programming language.
+This repository contains practical Python exercises, backend-style logic practice, and mini projects designed to help me prepare for junior software engineering opportunities.
 
-It is designed as a structured learning space where I practice writing clean code, improving logic, using Git and GitHub professionally, and developing the habits needed to become a software engineer.
+It is not just a collection of random exercises. It is a structured learning space where I practice clean code, problem solving, Git workflow, Linux terminal usage, and backend development concepts step by step.
 
 ## Main Focus
 
-My current focus is Python and software engineering fundamentals.
+My current focus is **Python Backend Development**.
 
 This includes:
 
-- Programming logic
+- Python fundamentals
 - Variables and data types
-- User input and output
-- Conditional statements
+- Conditionals
 - Loops
 - Functions
-- File organization
-- Git and GitHub workflow
-- Linux terminal practice
-- Clean and readable code
-
-## Future Topics
-
-As I continue learning, this repository will also include practice with:
-
-- Object-Oriented Programming
-- Data structures
-- Algorithms
-- APIs
+- Lists and dictionaries
+- Data validation
+- Backend-style logic
 - JSON data
-- Backend development
+- APIs
+- Databases
 - Testing
-- Automation
-- Data analysis
-- Machine learning basics
+- Clean return values
+- Project organization
+- Git and GitHub workflow
+
+## Backend Learning Path
+
+This repository will grow through a practical backend-focused path:
+
+1. Python fundamentals
+2. Control flow with conditionals and loops
+3. Functions and reusable logic
+4. Lists, dictionaries, and structured data
+5. Backend-style data validation
+6. JSON data handling
+7. API fundamentals
+8. Database fundamentals
+9. Testing and error handling
+10. Backend mini projects
+11. Future machine learning basics
 
 ## Repository Structure
 
 ```txt
 software-engineering-lab/
 ├── python/
-│   ├── basics/
+│   ├── fundamentals/
 │   └── README.md
 └── README.md
 ```
 
 ## Python Directory
 
-The `python/` directory contains Python exercises, mini projects, and practical programs focused on building a strong programming foundation.
+The `python/` directory contains all Python backend practice for this repository.
 
-Current and future Python practice includes:
-
-- Basic syntax
-- Variables
-- Input and output
-- Arithmetic operations
-- String formatting
-- Conditionals
-- Loops
-- Functions
-- Lists, tuples, sets, and dictionaries
-- File handling
-- Error handling
-- Object-Oriented Programming
-- APIs
-- Automation scripts
-- Machine learning fundamentals
+This includes small exercises, logic challenges, mini programs, and backend-style projects that help me build real software engineering habits.
 
 ## Current Practice
 
-At this stage, I am working on beginner Python programs that apply real programming concepts in simple and practical ways.
-
-Example practice programs:
+At this stage, I am practicing Python fundamentals and backend-style logic through small programs such as:
 
 - Employee information program
 - Salary calculator
-- Basic data input programs
-- Formatted output exercises
-- Logic practice exercises
-- Small command-line tools
+- Grade average calculator
+- Product summary program
+- Product validation
+- Inventory calculations
+- Stock checking
+- Data filtering
+- Function return values
+- Working with structured data
 
 ## Technologies Used
 
@@ -101,17 +93,17 @@ Example practice programs:
 Through this repository, I want to:
 
 - Build strong Python fundamentals
-- Improve problem-solving skills
+- Improve backend-style problem solving
 - Practice writing clean and readable code
-- Learn how to organize projects professionally
-- Become comfortable using Git and GitHub
-- Prepare for backend development
-- Build a foundation for machine learning
-- Develop real software engineering habits
+- Learn how to organize code professionally
+- Work with structured data
+- Prepare for APIs and databases
+- Prepare for junior software engineering opportunities
+- Build a foundation for future machine learning
 
 ## Long-Term Goal
 
-My long-term goal is to become a Software Engineer with a strong focus on Python and future specialization in Machine Learning.
+My long-term goal is to become a Software Engineer with a strong focus on Python backend development and future specialization in Machine Learning.
 
 This repository helps me track my progress, practice consistently, and show my growth through hands-on programming.
 

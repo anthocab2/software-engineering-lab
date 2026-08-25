@@ -1,12 +1,12 @@
-# Python Practice
+# Python Backend Practice
 
-This directory contains Python exercises, mini projects, and practical programs focused on building a strong foundation in software engineering.
+This directory contains Python exercises, backend-style logic practice, and mini projects focused on building a strong foundation for backend development.
 
-The goal is to practice Python step by step, starting from the basics and progressing toward more advanced topics such as functions, object-oriented programming, APIs, automation, and eventually machine learning fundamentals.
+The goal is to practice Python step by step, starting with fundamentals and progressing toward structured data, JSON, APIs, databases, testing, and backend mini projects.
 
 ## Purpose
 
-The purpose of this directory is to document my Python learning journey through practical exercises and small real-world programs.
+The purpose of this directory is to document my Python backend learning journey through practical exercises and small real-world programs.
 
 Each file or project is designed to strengthen a specific programming concept while improving code readability, problem-solving skills, and professional coding habits.
 
@@ -21,49 +21,46 @@ This directory will include practice with:
 - Conditional statements
 - Loops
 - Functions
-- Lists, tuples, sets, and dictionaries
+- Lists and dictionaries
+- Data validation
 - File handling
 - Error handling
 - Modules and imports
-- Object-Oriented Programming
-- APIs
 - JSON data
-- Automation scripts
-- Basic testing
-- Problem-solving exercises
-- Beginner machine learning concepts in the future
+- API requests
+- Database fundamentals
+- Testing
+- Backend mini projects
+- Future machine learning basics
 
-## Current Exercises
+## Current Sections
 
-### Employee Information Program
+### `fundamentals/`
 
-A small command-line program that collects employee information from the user and displays it in a clean format.
+This section contains beginner Python programs focused on variables, input, output, type conversion, arithmetic operations, f-strings, and clean program structure.
 
-Concepts practiced:
+Current practice files include:
 
-- `input()`
-- Variables
-- Type conversion with `int()`
-- f-strings
-- Basic arithmetic
-- Formatted output
+- `employee_information.py`
+- `salary_calculator.py`
+- `grade_average.py`
+- `product_summary.py`
 
-## Future Practice Projects
+## Current Backend Logic Practice
 
-Planned Python practice projects include:
+Current practice is focused on backend-style thinking using Python.
 
-- Salary calculator
-- Grade calculator
-- Login system simulation
-- Simple banking system
-- Task manager
-- Contact book
-- File organizer
-- API data fetcher
-- Weather app using an API
-- Basic object-oriented programs
-- Data analysis practice
-- Machine learning beginner exercises
+Examples include:
+
+- Product validation
+- Inventory value calculation
+- Stock checking
+- Low-stock filtering
+- Sales calculations
+- Available inventory calculation
+- Functions with clean return values
+- Working with lists of dictionaries
+- Processing structured data
 
 ## Suggested Structure
 
@@ -71,22 +68,28 @@ As this directory grows, it may be organized like this:
 
 ```txt
 python/
-├── basics/
-│   ├── variables.py
-│   ├── input_output.py
-│   └── conditionals.py
-├── loops/
-│   └── loop_practice.py
-├── functions/
-│   └── calculator.py
-├── oop/
-│   └── employee.py
+├── fundamentals/
+│   ├── employee_information.py
+│   ├── salary_calculator.py
+│   ├── grade_average.py
+│   ├── product_summary.py
+│   └── README.md
+├── backend_logic/
+│   ├── product_validation.py
+│   ├── inventory_calculations.py
+│   └── stock_checker.py
+├── data_structures/
+│   └── inventory_data.py
+├── json_practice/
+│   └── product_data.json
 ├── apis/
-│   └── weather_api.py
-├── automation/
-│   └── file_organizer.py
-├── machine_learning_basics/
-│   └── first_model.py
+│   └── api_practice.py
+├── databases/
+│   └── database_practice.py
+├── testing/
+│   └── test_inventory.py
+├── projects/
+│   └── inventory_system/
 └── README.md
 ```
 
@@ -95,12 +98,13 @@ python/
 Through this directory, I want to:
 
 - Build strong Python fundamentals
-- Practice writing clean and readable code
-- Improve logical thinking
-- Learn how to structure programs professionally
-- Prepare for backend development
-- Build a foundation for machine learning
-- Develop habits used in real software engineering environments
+- Practice backend-style logic
+- Learn how to process structured data
+- Improve problem-solving skills
+- Write cleaner and more readable code
+- Organize Python files professionally
+- Prepare for APIs, databases, and backend projects
+- Build a foundation for future machine learning
 
 ## Technologies Used
 
@@ -113,4 +117,4 @@ Through this directory, I want to:
 
 ## Notes
 
-This directory is part of my larger `software-engineering-lab` repository, where I practice software engineering concepts through hands-on programming exercises and mini projects.
+This directory is part of my larger `software-engineering-lab` repository, focused on practicing Python backend development through hands-on exercises and mini projects.
