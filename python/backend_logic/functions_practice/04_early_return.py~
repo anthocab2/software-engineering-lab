@@ -1,0 +1,28 @@
+def validate_order(order):
+    if order["id"] <= 0:
+        return "ID inválido"
+
+    if order["total"] <= 0:
+        return "Total inválido"
+
+    if order["paid"] == False:
+        return "Orden no pagada"
+
+    return "Orden válida"
+
+
+order_1 = {
+    "id": 101,
+    "total": 250,
+    "paid": True,
+}
+
+order_2 = {
+    "id": 102,
+    "total": 100,
+    "paid": False,
+}
+
+
+print(validate_order(order_1))
+print(validate_order(order_2))

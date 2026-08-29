@@ -1,0 +1,21 @@
+def calculate_price(price, quantity, discount=0):
+    return price * quantity - discount
+
+
+price_without_discount = calculate_price(100, 2)
+
+price_with_discount = calculate_price(
+    price=100,
+    quantity=2,
+    discount=50,
+)
+
+another_price = calculate_price(
+    discount=20,
+    quantity=3,
+    price=50,
+)
+
+print(price_without_discount)
+print(price_with_discount)
+print(another_price)

@@ -1,0 +1,15 @@
+product = {
+    "name": "Laptop",
+    "price": 800,
+    "quantity": 2,
+}
+
+
+def calculate_product_value(product):
+    return product["price"] * product["quantity"]
+
+
+result = calculate_product_value(product)
+
+print(f'Producto: {product["name"]}')
+print(f"Valor del inventario: {result}")

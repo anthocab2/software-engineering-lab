@@ -1,0 +1,14 @@
+price = 100
+
+
+def calculate():
+    price = 50
+    total = price * 2
+
+    return total
+
+
+result = calculate()
+
+print(f"Resultado de la función: {result}")
+print(f"Precio global: {price}")
